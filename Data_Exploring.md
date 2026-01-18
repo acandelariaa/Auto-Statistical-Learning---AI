@@ -11,11 +11,11 @@ As mentioned before, we are going to use python programming + AI tools, most spe
 
 ### Data Loading
 Lets load the data set and see how many information we have
-![Data Loading](/assets/module1/resources/Data_loading.png)
+![Data Loading](Data_loading.png)
 
 The data set appears to have 2111 rows and 10 colums size, wich is a good size for a dataset, now let's see what kind of variables we're going to be working with
 ### Variables and types of information
-![Data type](/assets/module1/resources/Data_type.png)
+![Data type](Data_type.png)
 
 As we appreciate, we have two types of variables, "float64" and "Object", variables which for technical purposes we're going to express as quantitative (numbers) and qualitative (categories) respectively.
 
@@ -26,12 +26,12 @@ Other variables also seem to be very subjective, such as *"ComeVegetales"* and *
 
 Now, if we talk about obesity levels, we can put our attention to that variable which seems to be categoric, just to see how many people with different levels of obesity, we're going to plot the data to see the distribution. 
 
-![Obesity distribution](/assets/module1/resources/Obesity_levels_categories.png)
+![Obesity distribution](Obesity_levels_categories.png)
 
 According to the graph, obesity levels appear to be fairly well distributed across its different categories, with type 1 obesity being the most common between the data.
 
 Now, instinctively, there must be a tendency of obesity according to genre, let's explore the distribution based on genre to see if males or females tend to be in a specific category of obesity, let's see if the previous are on the right way.
 
-![Obesity genre](/assets/module1/resources/Obesity_type_genre.png)
+![Obesity genre](Obesity_type_genre.png)
 
 Looking closely at the plot, we can see a striking pattern in severe obesity levels: Type II is dominated by males, while Type III is almost exclusively female. In contrast, the other weight categories show a much more balanced distribution between sexes.
