@@ -11,7 +11,7 @@ All of this with the objective of understanding the nature of the dataset, reach
 
 [Data Exploring](Data_Exploring.md)
 
-[Studio Design](A1_1_Obesidad.csv)
+[Studio Design](Study_Design.md)
 
 [Output Variable](A1_1_Obesidad.csv)
 
