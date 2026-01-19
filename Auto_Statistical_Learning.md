@@ -1,18 +1,17 @@
-# Auto-Statistical Learning
-Due to the potential of AI use in data proccesing, in this module we're going to explore the basic concepts of statistical analysis using python programming.
-For this particular case, we will be using a dataset of obesity which contains variables such as, water consume, height, weight, age, and others.
+# Aprendizaje Estadistico Automatico
+Debido al potencial del uso de la IA en el procesamiento de datos, en este módulo exploraremos los conceptos básicos del análisis estadístico mediante programación en Python. Para este caso particular, utilizaremos un conjunto de datos sobre obesidad que contiene variables como consumo de agua, altura, peso, edad, entre otras.
 
 Dataset
 [Obesity Dataset](A1_1_Obesidad.csv)
 
-All of this with the objective of understanding the nature of the dataset, reach statistical inferences (understanding the behavior of the dataset), and explore opportunity areas.
+Todo esto con el objetivo de comprender la naturaleza del conjunto de datos, llegar a inferencias estadísticas (entender el comportamiento del conjunto de datos) y explorar áreas de oportunidad.
 
-# Procedure
+# Procedimiento
 
-[Data Exploring](Data_Exploring.md)
+[Exploracion de Datos](Data_Exploring.md)
 
-[Study Design](Study_Design.md)
+[Diseño del Estudio](Study_Design.md)
 
-[Output Variable](A1_1_Obesidad.csv)
+[Variable de Salida](A1_1_Obesidad.csv)
 
-[Grafic Analysis / conclusion](Grafic_analysis_conclusion.md)
+[Analisis Grafico / conclusion](Grafic_analysis_conclusion.md)
