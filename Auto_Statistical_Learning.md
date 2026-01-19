@@ -1,8 +1,11 @@
 # Aprendizaje Estadistico Automatico
 Debido al potencial del uso de la IA en el procesamiento de datos, en este módulo exploraremos los conceptos básicos del análisis estadístico mediante programación en Python. Para este caso particular, utilizaremos un conjunto de datos sobre obesidad que contiene variables como consumo de agua, altura, peso, edad, entre otras.
 
-Dataset
-[Obesity Dataset](A1_1_Obesidad.csv)
+### Recursos
+
+|Dataset|[Obesidad.csv](A1_1_Obesidad.csv)|
+|-------|--------|
+|Notebook (google colab)|c|
 
 Todo esto con el objetivo de comprender la naturaleza del conjunto de datos, llegar a inferencias estadísticas (entender el comportamiento del conjunto de datos) y explorar áreas de oportunidad.
 
