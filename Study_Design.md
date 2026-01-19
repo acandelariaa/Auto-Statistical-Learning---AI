@@ -3,7 +3,7 @@ En esta sección, analizaremos la composición del conjunto de datos, centrándo
 
 Existen numerosas variables relevantes para el análisis de la obesidad, como el tiempo dedicado al ejercicio físico, la práctica regular de actividad física, las horas diarias que se pasa sentado y otros factores relacionados con el estilo de vida. Entre estas, las variables relacionadas con la actividad física destacan de forma intuitiva, ya que el ejercicio está estrechamente vinculado al gasto energético y la salud general.
 
-# Hechos Cientificos Relacionados
+## Hechos Cientificos Relacionados
 
 Estudios cientificos destacan constantemente que la actividad física y el ejercicio desempeñan un papel crucial en la regulación del peso corporal y los niveles de obesidad. El ejercicio regular aumenta el gasto energético, ayuda a reducir la grasa corporal y disminuye el riesgo de obesidad y otros problemas de salud.
 
@@ -17,7 +17,8 @@ Un artículo publicado en **Clinical Medicine**, la revista oficial del *Royal C
 
 *Raiman, L., Amarnani, R., Abdur-Rahman, M., Marshall, A., & Mani-Babu, S. (2023). The role of physical activity in obesity*
 
-Por consiguiente, se propone una variable adicional denominada "Actividad Física". Esta variable tiene una importancia significativa para el análisis, la cual realmente podria considerarse tanto cualitativa (Activo/Normal/Bajo) o cuantitativa (horas semanales), sin embargo para facilidad el estudio, se recomienda manejarlo como qualitativa, esto para facilitar una respuesta por parte de las personas.
+### Variable Adicional Propuesta
+Por consiguiente, se propone una variable adicional denominada **"Actividad Física"**. Esta variable tiene una importancia significativa para el análisis, la cual realmente podría considerarse tanto cualitativa **(Activo/Normal/Bajo)** como cuantitativa **(horas semanales)**; sin embargo, para facilidad el estudio, se recomienda manejarlo como cualitativa, esto para facilitar una respuesta por parte de las personas, ya que sí se maneja cuantitativamente, podría haber errores en cuanto a las estimaciones de las personas acerca de su actividad física.
 
 ## Referencias APA
 
