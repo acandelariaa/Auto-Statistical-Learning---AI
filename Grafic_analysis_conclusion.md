@@ -5,7 +5,10 @@ Dada la alta variabilidad del peso individual, calculamos el **peso promedio** p
 
 ### Graficar Subpoblación
 
+
 > Python Code
+
+
 ```python
 # Establecer dataframe de hombres
 df_hombres = df[df['Sexo'] == 'Male'] 
@@ -50,7 +53,9 @@ plt.tight_layout()
 plt.show()
 ```
 
+
 ![Graphic_analysis](Peso_promedio_subpoblacion_masculina.png)
+
 
 
 **Interpretación de Resultados de Subpoblación Masculina:**
@@ -70,7 +75,11 @@ Para una mejor comparación en el analisis, este estudio se dio a la tarea de co
 
 ### Graficar Subpoblaciónes
 
+
+
 > Python Code
+
+
 
 ```python
 # Configuración del tamaño
@@ -115,6 +124,9 @@ plt.grid(axis='y', linestyle='--', alpha=0.3)
 plt.tight_layout()
 plt.show()
 ```
+
+
+
 ![Subpoblaciones](Peso_hombres_y_mujeres.png)
 
 El gráfico revela un patrón consistente: la subpoblación masculina presenta un peso promedio más alto en todas las categorías de obesidad, en comparación con el valor de referencia femenino. Inicialmente, esta diferencia se mantiene estable, rondando los 10 kg en las primeras categorías.
