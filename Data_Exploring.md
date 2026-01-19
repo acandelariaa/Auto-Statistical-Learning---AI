@@ -7,7 +7,8 @@ Como se mencionó anteriormente, vamos a utilizar herramientas de programación 
 
 ### Carga de Datos
 > Python code
-```
+
+```python
 # importar dataset y librerias necesarias
 from google.colab import drive
 import pandas as pd
@@ -22,11 +23,13 @@ Vamos a cargar el dataset para ver cuánta información tenemos.
 ![Data Loading](Data_loading.png)
 
 El conjunto de datos parece tener 2111 filas y 10 columnas, lo cual es un buen tamaño para un conjunto de datos. Ahora veamos con qué tipo de variables vamos a trabajar.
+
 > Python code
-```
+```python
 # ver el tipo de variable
 df.dtypes
 ```
+
 ### Variables en el dataset y su tipo de datos
 |Variable|Tipo de dato|
 |--------|------------|
@@ -40,7 +43,8 @@ df.dtypes
 |Fumador	|object|
 |ConsumoDeAgua|float64|
 |NivelDeObesidad |object|
->
+
+
 Como apreciamos, tenemos dos tipos de variables, “float64” y “Object”, variables que para efectos técnicos vamos a expresar como cuantitativas (números) y cualitativas (categorías) respectivamente.
 
 # Aspectos Generales
@@ -49,8 +53,10 @@ A simple vista, el conjunto de datos parece bastante general y básico, nada esp
 Otras variables también parecen ser muy subjetivas, como *"ComeVegetales"* y *"ConsumoDeAgua"*, ya que el conjunto de datos no especifica si las cifras de ambas variables tienen una unidad de medida. Por lo tanto, parece correcto tratarlas como un consumo relativo, pero sería muy útil que se especificaran las cifras como frecuencia semanal, litros, galones o cualquier otra unidad.
 
 Ahora bien, si hablamos de niveles de obesidad, podemos centrarnos en esa variable, que parece categórica. Para ver cuántas personas tienen diferentes niveles de obesidad, vamos a graficar los datos para ver la distribución.
+
 > Python code
-```
+
+```python
 conteo = df["NivelDeObesidad"].value_counts()
 total = conteo.sum()
 
@@ -68,6 +74,7 @@ plt.title("Distribución de personas por tipo de obesidad")
 plt.xticks(rotation=90)
 plt.show()
 ```
+
 ![Obesity distribution](Obesity_levels_categories.png)
 > Distribución Porcentual de Niveles de Obesidad
 
