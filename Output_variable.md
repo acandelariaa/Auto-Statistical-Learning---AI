@@ -1,18 +1,15 @@
-# Output Variable
-In this section, we will be discussing an output variable for the analysis of the study,
-which help us to give a sort of an answer about the data we're processing.
+# Variable de Salida
+En esta sección, discutiremos una variable de salida para el análisis del estudio,
 
-## Selected output
-Instinctively, the output is going to be wether the person has obesity or not, but because of the data we have,
-we know that variable it's divided in different categories such as, normal weight, overweight, obesity 1, 2, etc.
+## Salida Seleccionada
+Instintivamente, el resultado será si la persona tiene obesidad o no, pero debido a los datos que tenemos, sabemos que esa variable se divide en diferentes categorías como peso normal, sobrepeso, obesidad 1, 2, etc.
 
-It is very helpful to not have a very polarized answer, due to the overwealming reaction it could have 
-on someone, for instance, is better to use categories instead an output of (yes/no), to the obesity question.
+Es muy útil no tener una respuesta muy polarizada, debido a la reacción abrumadora que podría tener en alguien, por lo tanto es mejor usar categorías como los tipos de obesidad ya establecidos en lugar de una salida de (sí/no) para la pregunta sobre la obesidad.
 
-## Nature of the variable
-The nature of the variable, or the type of variable, would be categoric, which is more suitable than using a number as an output.
+## Naturaleza de la variable
+La naturaleza de la variable, o el tipo de variable, sería categórica, lo que es más adecuado que utilizar un número como salida.
 
-The levels of obesity are the following: 
+Los niveles de obesidad son los siguientes
 
 - Insufficient Weight
 
@@ -28,13 +25,4 @@ The levels of obesity are the following:
 
 - Obesity Type III
 
-These types of variables will be the result for the answer of what type of obesity someone has, based on the physical 
-characteristics and eating habits presented in the data set.
-
-Since we are dealing with categories, we won't be calculating averages (you can't calculate the "average" of a category). Instead, the analysis will focus on:
-
-The Counts: How many people are in each group?
-
-The Percentages: What portion of the total population falls into "Normal Weight" vs. "Obesity Type I"?
-
-The Most Common Group: Which level appears the most in our data?
+Este tipo de variables determinará el tipo de obesidad que padece una persona, según las características físicas y los hábitos alimentarios presentados en el conjunto de datos.
