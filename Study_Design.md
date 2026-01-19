@@ -1,19 +1,20 @@
-# Study Design
-In this section, we discuss how the dataset is composed, specifically focusing on the variables available. From a constructive perspective, as mentioned before, the dataset is very basic. Therefore, to generate accurate outputs regarding obesity, health issues, or other related outcomes, additional variables need to be considered.
+# Diseño del Estudio
+En esta sección, analizaremos la composición del conjunto de datos, centrándonos específicamente en las variables disponibles. Desde una perspectiva constructiva, como se mencionó anteriormente, el conjunto de datos es muy básico. Por lo tanto, para generar resultados precisos sobre obesidad, problemas de salud u otros resultados relacionados, es necesario considerar variables adicionales.
 
-There are numerous variables relevant to analyzing obesity, such as the time dedicated to physical exercise, engagement in regular physical activity, hours spent sitting per day, and other lifestyle-related factors. Among these, variables related to physical activity stand out intuitively, as exercise is closely linked to energy expenditure and overall health.
+Existen numerosas variables relevantes para el análisis de la obesidad, como el tiempo dedicado al ejercicio físico, la práctica regular de actividad física, las horas diarias que se pasa sentado y otros factores relacionados con el estilo de vida. Entre estas, las variables relacionadas con la actividad física destacan de forma intuitiva, ya que el ejercicio está estrechamente vinculado al gasto energético y la salud general.
 
-# Science Related Facts
-Scientific research consistently highlights that physical activity and exercise play a crucial role in body weight regulation and obesity levels. Regular exercise increases energy expenditure, helps reduce body fat, and decreases the risk of obesity and other health issues.
+# Hechos Cientificos Relacionados
+
+Estudios cientificos destacan constantemente que la actividad física y el ejercicio desempeñan un papel crucial en la regulación del peso corporal y los niveles de obesidad. El ejercicio regular aumenta el gasto energético, ayuda a reducir la grasa corporal y disminuye el riesgo de obesidad y otros problemas de salud.
 
 > *"A minimum of 150 to 300 minutes of moderate physical activity per week or 75 to 150 minutes of vigorous physical activity weekly is essential to prevent weight regain, increase weight loss, and improve fitness."*
 >
 > — Niemiro, G. M., Rewane, A., & Algotar, A. M. (2023, November 17).
 
-An article published by **Clinical Medicine**, the official journal of the *Royal College of Physicians* (London), encouraged the adoption of recurrent physical activity due to its benefits and the reduction of health issues associated with fitness.
+Un artículo publicado en **Clinical Medicine**, la revista oficial del *Royal College of Physicians* (Londres), fomenta la adopción de actividad física recurrente debido a sus beneficios y la reducción de problemas de salud asociados al fitness.
 
 ![Physical Activity Poster](Physical_activity_poster.png)
 
 *Raiman, L., Amarnani, R., Abdur-Rahman, M., Marshall, A., & Mani-Babu, S. (2023). The role of physical activity in obesity*
 
-Consequently, we propose an additional variable named **"Physical Activity"** (or "Actividad Física"). This variable holds significant importance for the analysis and could be treated as qualitative (Active/Normal/Low) or quantitative (hours per week).
+Por consiguiente, se propone una variable adicional denominada "Actividad Física". Esta variable tiene una importancia significativa para el análisis, la cual realmente podria considerarse tanto cualitativa (Activo/Normal/Bajo) o cuantitativa (horas semanales), sin embargo para facilidad el estudio, se recomienda manejarlo como qualitativa, esto para facilitar una respuesta por parte de las personas.
