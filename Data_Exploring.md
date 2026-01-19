@@ -6,8 +6,6 @@ La obesidad es uno de los retos sanitarios más urgentes en Latinoamérica, actu
 Como se mencionó anteriormente, vamos a utilizar herramientas de programación de Python + IA, más específicamente en Google Colab debido a su flexibilidad y facilidad de uso.
 
 ### Carga de Datos
-> Python code
-
 ```python
 # importar dataset y librerias necesarias
 from google.colab import drive
@@ -24,7 +22,6 @@ Vamos a cargar el dataset para ver cuánta información tenemos.
 
 El conjunto de datos parece tener 2111 filas y 10 columnas, lo cual es un buen tamaño para un conjunto de datos. Ahora veamos con qué tipo de variables vamos a trabajar.
 
-> Python code
 ```python
 # ver el tipo de variable
 df.dtypes
@@ -53,8 +50,6 @@ A simple vista, el conjunto de datos parece bastante general y básico, nada esp
 Otras variables también parecen ser muy subjetivas, como *"ComeVegetales"* y *"ConsumoDeAgua"*, ya que el conjunto de datos no especifica si las cifras de ambas variables tienen una unidad de medida. Por lo tanto, parece correcto tratarlas como un consumo relativo, pero sería muy útil que se especificaran las cifras como frecuencia semanal, litros, galones o cualquier otra unidad.
 
 Ahora bien, si hablamos de niveles de obesidad, podemos centrarnos en esa variable, que parece categórica. Para ver cuántas personas tienen diferentes niveles de obesidad, vamos a graficar los datos para ver la distribución.
-
-> Python code
 
 ```python
 conteo = df["NivelDeObesidad"].value_counts()
