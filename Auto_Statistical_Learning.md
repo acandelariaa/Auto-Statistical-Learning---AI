@@ -12,6 +12,6 @@ Todo esto con el objetivo de comprender la naturaleza del conjunto de datos, lle
 
 [Diseño del Estudio](Study_Design.md)
 
-[Variable de Salida](A1_1_Obesidad.csv)
+[Variable de Salida](Output_variable.md)
 
 [Analisis Grafico / conclusion](Grafic_analysis_conclusion.md)
