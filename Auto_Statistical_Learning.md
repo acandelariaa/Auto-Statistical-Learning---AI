@@ -5,7 +5,7 @@ Debido al potencial del uso de la IA en el procesamiento de datos, en este módu
 
 |Dataset|[Obesidad.csv](A1_1_Obesidad.csv)|
 |-------|--------|
-|Notebook (.ipynb)|c|
+|Notebook|[.ipynb](Tarea_A1_aprendizaje_estadistico_automatico.ipynb)|
 
 Todo esto con el objetivo de comprender la naturaleza del conjunto de datos, llegar a inferencias estadísticas (entender el comportamiento del conjunto de datos) y explorar áreas de oportunidad.
 
