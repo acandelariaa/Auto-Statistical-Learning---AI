@@ -1,25 +1,14 @@
-# Homepage
+# Inteligencia Artificial 1
 
-Welcome!  
-This repository contains projects, assignments, and examples related to Artificial Intelligence applied to data processing.
+## Aprendizaje Estadistico Automatico
 
-##  Modules
+¡Bienvenido/a!, en esta página encontrarás conceptos básicos y ejemplos del aprendizaje automático-estadístico en la programación utilizando recursos como Google colab, Python y por supuesto, el uso de inteligencia artificial.
 
-| Module | Content |
-|--------|---------|
-|Auto-Statistical learning | [Go to Module 1](Auto_Statistical_Learning.md) |
+[Aprendizaje Estadistico Automatico](Auto_Statistical_Learning.md)
 
----
-## 📂 Repository structure
-
-```text
-(root)
-index.md     → Home page
-module1.md   → Intro to AI (Auto-Statistical Learning)
-```
-<p align="center">
+<p align="left">
   <small>
     By <strong>Ángel Candelaria</strong><br>
-    Artificial Intelligence 1
+    Inteligencia Artificial 1
   </small>
 </p>
