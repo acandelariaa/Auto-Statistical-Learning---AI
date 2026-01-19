@@ -5,6 +5,7 @@ For this section, we have selected the **male subpopulation** to analyze the rel
 Given the high variability in individual weight, we calculated the **average weight** for each obesity category. This allows us to identify clear trends and patterns without the noise of individual data points.
 
 ![Graphic_analysis](Peso_hombres_y_mujeres.png)
+> Average Weight by obesity level
 
 **Interpretation of Results:**
 
