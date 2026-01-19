@@ -2,6 +2,20 @@
 ## Introducción
 La obesidad es uno de los retos sanitarios más urgentes en Latinoamérica, actuando como detonante de múltiples enfermedades crónicas más allá de la estética. Este reporte analiza datos reales de individuos de Colombia, Perú y México con un objetivo claro: identificar qué hábitos y factores biológicos determinan los distintos niveles de obesidad, para comprender sus causas subyacentes más allá de las cifras simples.
 
+## Metodología
+
+Para lograr un entendimiento profundo de los datos y cumplir con el objetivo del estudio se baso en la siguiente metodología:
+
+* **Inspección de datos:** Carga del dataset para identificar dimensiones (filas y columnas) y clasificar las variables según su naturaleza técnica (cuantitativas vs. cualitativas).
+
+* **Evaluación Crítica de Calidad:** Análisis de la subjetividad de los datos, identificando limitaciones en variables que carecen de unidades de medida estándar (ej. consumo de agua o calorías) para proponer mejoras en la recolección futura.
+
+* **Análisis de la Variable Objetivo:** Visualización de la distribución de la variable Nivel de Obesidad para verificar el balance de las clases y detectar posibles sesgos en la muestra.
+
+* **Procesamiento Técnico:** Uso de Python en el entorno Google Colab para la manipulación estadística y generación de gráficos.
+
+* **Interpretación de datos obtenidos:** A partir del procesamiento técnico se encontrarán comportamientos, tendencias u patrones que puedan ayudarnos a entender el funcionamiento del sistema o conjunto de datos.
+
 ### Disclaimer
 Como se mencionó anteriormente, vamos a utilizar herramientas de programación de Python + IA, más específicamente en Google Colab debido a su flexibilidad y facilidad de uso.
 
