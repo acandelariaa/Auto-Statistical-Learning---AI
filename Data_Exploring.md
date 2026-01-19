@@ -1,8 +1,3 @@
----
-layout: default
-title: Exploración de Datos
-permalink: /exploracion/
----
 # Data Exploring
 First of all, we must understand the nature of the data set, we need to know things like, how many data are avaliable in the dataset, what kind of variables we are dealing with, we must know if they are numbers, words or any other kind of information.
 
