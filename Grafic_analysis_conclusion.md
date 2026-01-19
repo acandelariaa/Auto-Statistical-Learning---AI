@@ -1,12 +1,59 @@
 # Analisis Gráfico
 Dada la alta variabilidad del peso individual, calculamos el **peso promedio** para cada categoría de obesidad. Esto nos permite identificar tendencias y patrones claros sin el ruido de los datos individuales.
 
+**Subpoblación Seleccionada:** para este análisis gráfico, se seleccionó específicamente a la subpoblación masculina. Esta segmentación nos permite examinar la relación entre el peso y los niveles de obesidad de forma aislada, facilitando la detección de patrones de salud y tendencias de peso.
+
+### Graficar Subpoblación
+
+> Python Code
+```python
+# Establecer dataframe de hombres
+df_hombres = df[df['Sexo'] == 'Male'] 
+
+# Configuración del tamaño
+plt.figure(figsize=(14, 8))
+
+# Orden de las categorías
+orden_niveles = [
+    'Insufficient_Weight',
+    'Normal_Weight',
+    'Overweight_Level_I',
+    'Overweight_Level_II',
+    'Obesity_Type_I',
+    'Obesity_Type_II',
+    'Obesity_Type_III'
+]
+
+# 2. CREAR EL GRÁFICO (Usando solo df_hombres)
+ax = sns.barplot(
+    data=df_hombres,       # Usamos el dataframe filtrado
+    x='NivelDeObesidad',        # Asegúrate que este sea el nombre real de tu columna
+    y='Peso',            # Variable de peso
+    order=orden_niveles,
+    color='#ffb347',       # Un color naranja pastel (o usa palette='Oranges')
+    errorbar=None,
+    edgecolor='black'
+)
+
+# Poner los números arriba de las barras
+for container in ax.containers:
+    ax.bar_label(container, fmt='%.1f kg', padding=3, fontsize=11)
+
+# Títulos y Etiquetas
+plt.title('Peso Promedio por Nivel de Obesidad (Subpoblación Masculina)', fontsize=16, fontweight='bold')
+plt.xlabel('Categoría de Obesidad', fontsize=12)
+plt.ylabel('Peso Promedio (kg)', fontsize=12)
+plt.xticks(rotation=45)
+plt.grid(axis='y', linestyle='--', alpha=0.3)
+
+plt.tight_layout()
+plt.show()
+```
+
 ![Graphic_analysis](Peso_hombres_y_mujeres.png)
-> Peso Promedio por nivel de obesidad
 
-**Interpretación de Resultados:**
 
-**Subpoblación:** Se seleccionaron ambos géneros, masculino y femenino para esta visualización, con el fin de facilitar una interpretación clara de los resultados. Dado que el objetivo principal es realizar un análisis comparativo, este gráfico permite contrastar el peso promedio entre géneros en cada nivel de obesidad. Este enfoque comparativo proporciona un contexto valioso que se perdería al analizar una sola subpoblación.
+**Interpretación de Resultados de Subpoblación Masculina:**
 
 El gráfico revela un patrón consistente: la subpoblación masculina presenta un peso promedio más alto en todas las categorías de obesidad, en comparación con el valor de referencia femenino. Inicialmente, esta diferencia se mantiene estable, rondando los 10 kg en las primeras categorías.
 
