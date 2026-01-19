@@ -2,8 +2,7 @@
 En esta sección, se discutirá una variable de salida para el análisis del estudio.
 
 **Salida Seleccionada**
-|NivelDeObesidad|
-|---|
+* NivelDeObesidad
 
 ### Justificación
 
