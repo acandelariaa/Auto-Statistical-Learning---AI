@@ -18,3 +18,8 @@ Un artículo publicado en **Clinical Medicine**, la revista oficial del *Royal C
 *Raiman, L., Amarnani, R., Abdur-Rahman, M., Marshall, A., & Mani-Babu, S. (2023). The role of physical activity in obesity*
 
 Por consiguiente, se propone una variable adicional denominada "Actividad Física". Esta variable tiene una importancia significativa para el análisis, la cual realmente podria considerarse tanto cualitativa (Activo/Normal/Bajo) o cuantitativa (horas semanales), sin embargo para facilidad el estudio, se recomienda manejarlo como qualitativa, esto para facilitar una respuesta por parte de las personas.
+
+## Referencias APA
+
+* Raiman, L., Amarnani, R., Abdur-Rahman, M., Marshall, A., & Mani-Babu, S. (2023). *The role of physical activity in obesity: let’s actively manage obesity. Clinical Medicine, 23(4), 311-317*. <https://doi.org/10.7861/clinmed.2023-0152>
+* Niemiro, G. M., Rewane, A., & Algotar, A. M. (2023, 17 noviembre). *Exercise and Fitness Effect on Obesity. StatPearls - NCBI Bookshelf.* <https://www.ncbi.nlm.nih.gov/books/NBK539893/>
