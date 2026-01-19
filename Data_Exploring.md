@@ -7,7 +7,11 @@ Como se mencionó anteriormente, vamos a utilizar herramientas de programación 
 
 ### Carga de Datos
 Vamos a cargar el dataset para ver cuánta información tenemos.
+
+
 > Python Code
+
+
 ```python
 # importar dataset y librerias necesarias
 from google.colab import drive
@@ -27,6 +31,8 @@ El conjunto de datos parece tener 2111 filas y 10 columnas, lo cual es un buen t
 Vamos a revisar las variables y su tipo de datos
 
 > Python Code
+
+
 ```python
 # ver el tipo de variable
 df.dtypes
@@ -58,7 +64,10 @@ Ahora bien, si hablamos de niveles de obesidad, podemos centrarnos en esa variab
 ### Distribución de niveles de obesidad
 Demos un pequeño chequeo a como estan distribuidos los niveles de obesidad y el numero de personas
 
+
+
 > Python Code
+
 ```python
 conteo = df["NivelDeObesidad"].value_counts()
 total = conteo.sum()
@@ -77,6 +86,7 @@ plt.title("Distribución de personas por tipo de obesidad")
 plt.xticks(rotation=90)
 plt.show()
 ```
+
 
 ![Obesity distribution](Obesity_levels_categories.png)
 > Distribución Porcentual de Niveles de Obesidad
