@@ -134,3 +134,8 @@ La naturaleza del conjunto de datos es cualitativa y cuantitativa. Además, las 
 Hablando de ciertas areas de oportunidad, el conjunto de datos debería ser más específico en aspectos como "ConsumoDeAgua" y "ComeVegetales", debido a la falta de unidades de medida o especificación de frecuencia para estas variables, para este estudio, se consideraron como consumos relativos.
 
 En general, como se mencionó anteriormente, este conjunto de datos sirve como un buen ejemplo para el procesamiento de datos de aprendizaje automático estadístico, ya que demuestra claramente cómo distintas variables pueden influir en un resultado categórico.
+
+## Referencias APA
+
+* Raiman, L., Amarnani, R., Abdur-Rahman, M., Marshall, A., & Mani-Babu, S. (2023). *The role of physical activity in obesity: let’s actively manage obesity. Clinical Medicine, 23(4), 311-317*. <https://doi.org/10.7861/clinmed.2023-0152>
+* Niemiro, G. M., Rewane, A., & Algotar, A. M. (2023, 17 noviembre). *Exercise and Fitness Effect on Obesity. StatPearls - NCBI Bookshelf.* <https://www.ncbi.nlm.nih.gov/books/NBK539893/>
