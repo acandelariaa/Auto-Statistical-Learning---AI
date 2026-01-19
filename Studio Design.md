@@ -1,11 +1,19 @@
-# Studio Design
-For this space, we're going to talk about the way the data set is conformed, most specifically the variables we have, from a constructive perspective, as mentioned before, the dataset is very basic, so it would need to considered another variables for an output about obesity, health issues or any other output.
+# Study Design
+In this section, we discuss how the dataset is composed, specifically focusing on the variables available. From a constructive perspective, as mentioned before, the dataset is very basic. Therefore, to generate accurate outputs regarding obesity, health issues, or other related outcomes, additional variables need to be considered.
 
-There are numerous variables that could be relevant when analyzing obesity, such as the amount of time dedicated to physical exercise, whether the individual engages in regular physical activity, the number of hours spent sitting per day, and other lifestyle-related factors. Among these, variables related to physical activity stand out intuitively, as exercise is closely linked to energy expenditure and overall health.
-
-That is why it is proposed an aditional variable called "Physical Activiy" or "Actividad fisica", now, the variable could be qualitative or quantitative, being (Active/normal/low), or just treat it like (hours).
+There are numerous variables relevant to analyzing obesity, such as the time dedicated to physical exercise, engagement in regular physical activity, hours spent sitting per day, and other lifestyle-related factors. Among these, variables related to physical activity stand out intuitively, as exercise is closely linked to energy expenditure and overall health.
 
 # Science Related Facts
-Scientific research consistently highlights that physical activity and excercise play an important role in body weight regulation and obesity levels. Regular excercise increases energy expenditure and helps reduce body fat and decrease risk of obesity and other health issues.
+Scientific research consistently highlights that physical activity and exercise play a crucial role in body weight regulation and obesity levels. Regular exercise increases energy expenditure, helps reduce body fat, and decreases the risk of obesity and other health issues.
 
-*"A minimum of 150 to 300 minutes of moderate physical activity per week or 75 to 150 minutes of vigorous physical activity weekly is essential to prevent weight regain, increase weight loss, and improve fitness."*  Niemiro, G. M., Rewane, A., & Algotar, A. M. (2023, november 17).
+> *"A minimum of 150 to 300 minutes of moderate physical activity per week or 75 to 150 minutes of vigorous physical activity weekly is essential to prevent weight regain, increase weight loss, and improve fitness."*
+>
+> — Niemiro, G. M., Rewane, A., & Algotar, A. M. (2023, November 17).
+
+An article published by **Clinical Medicine**, the official journal of the *Royal College of Physicians* (London), encouraged the adoption of recurrent physical activity due to its benefits and the reduction of health issues associated with fitness.
+
+![Physical Activity Poster](Physical_activity_poster.png)
+
+*Raiman, L., Amarnani, R., Abdur-Rahman, M., Marshall, A., & Mani-Babu, S. (2023). The role of physical activity in obesity*
+
+Consequently, we propose an additional variable named **"Physical Activity"** (or "Actividad Física"). This variable holds significant importance for the analysis and could be treated as qualitative (Active/Normal/Low) or quantitative (hours per week).
