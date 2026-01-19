@@ -7,4 +7,4 @@ Due to the high variety of weight for each person, we need to find the average
 weight for every type of obesity and plot the results to see if there is a pattern, 
 which can be used later to make some inferences about males and females.
 
-
+![Grafic_analysis](Peso_hombres_y_mujeres.png)
